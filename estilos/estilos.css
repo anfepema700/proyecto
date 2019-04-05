@@ -1,0 +1,17 @@
+header{
+	background-color: #5b7989;
+border-radius:10px;
+}
+#NombreDelSitio{
+	color: white;
+	text-align: left;
+	text-shadow: 2px 2px 2px #02010a;
+}
+.menu{
+text-decoration: none;
+text-align: right;
+display:block;
+}
+nav ul{
+	list-style: none;
+}
