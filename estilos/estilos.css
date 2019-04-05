@@ -7,11 +7,17 @@ border-radius:10px;
 	text-align: left;
 	text-shadow: 2px 2px 2px #02010a;
 }
-.menu{
+#menu{
 text-decoration: none;
 text-align: right;
 display:block;
 }
-nav ul{
+#menu ul{
 	list-style: none;
 }
+.ImagenCentral{
+	position: center;
+	background-color: #82c3a6;
+	
+}
+
