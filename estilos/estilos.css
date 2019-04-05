@@ -18,6 +18,9 @@ display:block;
 .ImagenCentral{
 	position: center;
 	background-color: #82c3a6;
-	
+}
+.imagenSecundariaIzq{
+display: flex;
+
 }
 
