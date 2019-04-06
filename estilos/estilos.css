@@ -11,12 +11,15 @@ border-radius:10px;
 	text-shadow: 2px 2px 2px #02010a;
 }
 #menu{
-text-decoration: none;
+
 text-align: right;
 display:block;
 }
 #menu ul{
 	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
 }
 .ImagenCentral{
 	position: center;
@@ -43,4 +46,26 @@ transform: translateY(5px);
 transform:translateX(20px);
 box-shadow: #82c3a6;
 border-image: 2px;
+}
+footer{
+	border-radius: 10px;
+	background: #C6d5c5;
+}
+footer a{
+text-decoration: none;
+}
+
+}
+@media (max-width: 420px){
+	footer table tr td{
+		display:block;
+
+
+	}
+}
+@media (max-width: 720px){
+	footer table tr td{
+		display: flex;
+
+	}
 }
