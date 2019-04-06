@@ -15,8 +15,8 @@
 <nav id="menu">
 	<ul>
 		<li> <a href="">Inicio</a></li>
-		<li><a href="">Paisajes</a></li>
-		<li><a href="">
+		<li><a href="#Paisajes">Paisajes</a></li>
+		<li><a href="#Retratos">
 			Retratos
 		</a></li>
 		<li><a href="">Página actual</a></li>
@@ -25,14 +25,14 @@
 	<img src="imagenes/imagenprincipal.jpg" class="ImagenCentral">
 
 <picture >
-	<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaIzq.jpg">
-		<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaIzq.jpg">
-			<img src="imagenes/ImagenSecundariaIzq.jpg" class="imagenSecundaria">
+	<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaIzq.jpg" id="Paisajes">
+		<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaIzq.jpg" id="Paisajes">
+			<img src="imagenes/ImagenSecundariaIzq.jpg" class="imagenSecundaria" id="Paisajes">
 </picture>
 <picture >
-	<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaDer.jpg">
-		<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaDer.jpg">
-			<img src="imagenes/ImagenSecundariaDer.jpg" class="imagenSecundaria">
+	<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaDer.jpg" id="Retratos">
+		<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaDer.jpg" id="Retratos">
+			<img src="imagenes/ImagenSecundariaDer.jpg" class="imagenSecundaria" id="Retratos">
 </picture>
 </body>
 </html>

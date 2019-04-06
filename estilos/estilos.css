@@ -30,5 +30,17 @@ display:block;
 	padding: 50px;
 	width: 35%;
 	height: 20%;
-	background-color: gray;
+	background-color: #d5c75f ;
+	border-image:1px;
+}
+#Paisajes:hover{
+transform: rotate(10deg);
+box-shadow: 2px 2px 2px 2px #82c3a6;
+border-image: 2px; 
+}
+#Retratos:hover{
+transform: translateY(5px);
+transform:translateX(20px);
+box-shadow: #82c3a6;
+border-image: 2px;
 }
