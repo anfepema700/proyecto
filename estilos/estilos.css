@@ -1,3 +1,6 @@
+body{
+	padding: 1%;
+}
 header{
 	background-color: #5b7989;
 border-radius:10px;
@@ -18,9 +21,15 @@ display:block;
 .ImagenCentral{
 	position: center;
 	background-color: #82c3a6;
+	padding: 50px;
+	width: 40%;
+	height: 20%;
 }
 .imagenSecundariaIzq{
-display: flex;
 
+	padding: 50px;
+	width: 20%;
+	height: 20%;
+	background-color: black;
 }
 
