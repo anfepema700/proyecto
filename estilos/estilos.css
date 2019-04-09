@@ -4,8 +4,14 @@ src:url(fuentes/dancing-script/DancingScript-Regular.otf);
 }
 *{
 	font-family: "Dancing Script";
-
+	background-color: black;
+	color:#fff;
 }
+
+header{
+	background-color: gray;
+}
+
 #contenido{
 	text-align: center;
 	position: center;
@@ -38,17 +44,23 @@ border-radius:10px;
 	color: white;
 	text-align: left;
 	text-shadow: 2px 2px 2px #02010a;
+	background-color: #5b7989;
 }
 #menu{
 
 text-align: right;
-display:block;
+display: inline-flex;
+color: #fff;
+background-color: #5b7989;
 }
 #menu ul{
 	list-style: none;
+	background-color: #5b7989;	
 }
 nav ul li a{
 	text-decoration: none;
+	display: inline-flex;
+	background-color: #5b7989;
 }
 .ImagenCentral{
 	position: center;
@@ -79,6 +91,7 @@ border-image: 2px;
 footer{
 	border-radius: 10px;
 	background: #C6d5c5;
+	color: black;
 }
 footer a{
 text-decoration: none;

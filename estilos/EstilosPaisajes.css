@@ -1,10 +1,14 @@
 *{
+	font-family: "Dancing Script";
 	background-color: black;
+	color: #fff;
 }
+
 h1{
 	color: white;
 	text-align: justify;
 	text-shadow: 2px 2px 2px #FFF;
+	color: #fff;
 	}
 
 
@@ -27,4 +31,16 @@ h1{
 }
 .imagen1{
 	filter: blur(10px);
+	border-radius: 10px;
+}
+.imagenPares{
+	filter: grayscale(100%);
+}
+.imagen3{
+	filter: sepia(90%);
+}
+footer{
+	background-color: #c6d5c5;
+	border-radius: 10px;
+
 }
