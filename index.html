@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 	<meta name="viewport" content="width=device-width", user-scalable=no,initial-scale=1.0>
 	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
 	<meta charset="utf-8">
@@ -10,33 +10,32 @@
 </head>
 <body>
 <div id="contenido">
-<header>
-	<h1 id="NombreDelSitio">Comenzando con la fotografía</h1>
-<nav id="menu">
-	<ul>
-		<li><a href="">Inicio</a></li>
-		<li><a href="paisajes.html">Paisajes</a></li>
-		<li><a href="retratos.html">
-			Retratos
-		</a></li>
-		<li><a href="">Página actual</a></li>
-	</ul>
-</nav>
+<!--header-->
+	<header>
+		<h1 id="NombreDelSitio">Comenzando con la fotografía</h1>
+	<nav id="menu">
+		
+			<a href="">Inicio</a>
+			<a href="paisajes.html">Paisajes</a>
+			<a href="retratos.html">Retratos</a>
+		
+	</nav>
 
-</header>
+	</header>
 	<img src="imagenes/imagenprincipal.jpg" class="ImagenCentral">
 
-<picture >
-	<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaIzq.jpg" id="Paisajes">
-		<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaIzq.jpg" id="Paisajes">
-			<img src="imagenes/ImagenSecundariaIzq.jpg" class="imagenSecundaria" id="Paisajes">
-</picture>
-<picture >
-	<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaDer.jpg" id="Retratos">
-		<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaDer.jpg" id="Retratos">
-			<img src="imagenes/ImagenSecundariaDer.jpg" class="imagenSecundaria" id="Retratos">
-</picture>
-
+<div id="ClasePicture">
+	<picture >
+		<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaIzq.jpg" id="Paisajes">
+			<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaIzq.jpg" id="Paisajes">
+				<img src="imagenes/ImagenSecundariaIzq.jpg" class="imagenSecundaria" id="Paisajes">
+	</picture>
+	<picture >
+		<source media="(min-width: 650px)" srcset="imagenes/ImagenSecundariaDer.jpg" id="Retratos">
+			<source media="(min-width: 465px)" srcset="imagenes/ImagenSecundariaDer.jpg" id="Retratos">
+				<img src="imagenes/ImagenSecundariaDer.jpg" class="imagenSecundaria" id="Retratos">
+	</picture>
+</div>
 <footer>
 	<table>
 		<tr>
