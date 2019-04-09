@@ -6,9 +6,25 @@ h1{
 	text-align: justify;
 	text-shadow: 2px 2px 2px #FFF;
 	}
-img {
-	display: inline-block;
-	padding: 10px;
-	width: 300px;
-	height: 200px;
+
+
+@media(min-width: 420px){
+	img {
+		display: inline-block;
+		padding: 10px;
+		width: 300px;
+		height: 200px;
+	}
+}
+@media (max-width: 720px){
+
+	img{
+	display: block;
+		padding: 10px;
+		width: 300px;
+		height: 200px;	
+	}
+}
+.imagen1{
+	filter: blur(10px);
 }
