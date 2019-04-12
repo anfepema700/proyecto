@@ -1,12 +1,13 @@
-*{
-	font-family: "Dancing Script";
-	background-color: black;
-	color: #fff;
-}
 @font-face{
 font-family: "Dancing Script";
 src:url(fuentes/dancing-script/DancingScript-Regular.otf);
 }
+*{
+	font-family: 'Dancing Script', cursive;
+	background-color: #5b7989;
+	color:#fff;
+}
+
 h1{
 	color: white;
 	text-align: justify;
@@ -47,5 +48,12 @@ body{
 }
 footer table{
 	border-radius: 10px;
+	background-color: #5b7989;
+}
+footer table tr {
+	background-color: #5b7989;
+}
+
+footer table tr td{
 	background-color: #5b7989;
 }
